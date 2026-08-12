@@ -13,9 +13,12 @@
         <p class="description">A log of the repositories I've starred.</p>
       </header>
 
-      <section>
-        <div id="status-message" class="status-message">Loading starred repositories…</div>
-        <ul id="starred-list" aria-live="polite"></ul>
+      <section aria-labelledby="starred-heading">
+        <h2 id="starred-heading" class="sr-only">Starred repositories</h2>
+        <div id="status-message" class="status-message" role="status" aria-live="polite" aria-atomic="true">
+          Loading starred repositories…
+        </div>
+        <ul id="starred-list"></ul>
       </section>
     </main>
 
