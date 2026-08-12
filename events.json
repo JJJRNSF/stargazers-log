@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "repository": {
+      "name": "cool-components",
+      "owner": "open-source-dev",
+      "description": "A set of reusable UI components for modern web apps.",
+      "stars": 842,
+      "url": "https://github.com/open-source-dev/cool-components"
+    },
+    "starredAt": "2026-08-10T14:30:00Z"
+  },
+  {
+    "id": 2,
+    "repository": {
+      "name": "dev-tools",
+      "owner": "toolsmith",
+      "description": "Utilities and scripts that speed up everyday development workflows.",
+      "stars": 1284,
+      "url": "https://github.com/toolsmith/dev-tools"
+    },
+    "starredAt": "2026-08-09T09:15:00Z"
+  },
+  {
+    "id": 3,
+    "repository": {
+      "name": "design-tokens",
+      "owner": "frontend-ux",
+      "description": "A shared design token system for color, spacing, and typography.",
+      "stars": 532,
+      "url": "https://github.com/frontend-ux/design-tokens"
+    },
+    "starredAt": "2026-08-08T18:05:00Z"
+  }
+]
