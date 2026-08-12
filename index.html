@@ -2,10 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main>
+      <header>
+        <h1>Stargazers log</h1>
+        <p class="description">A log of the repositories I've starred.</p>
+      </header>
+
+      <section>
+        <div id="status-message" class="status-message">Loading starred repositories…</div>
+        <ul id="starred-list" aria-live="polite"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
